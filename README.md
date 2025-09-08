@@ -15,11 +15,21 @@
 
 This tool responds to **Operation CryptoClipper** (CVE-2025-31842), a sophisticated supply chain attack that compromised popular NPM packages to steal cryptocurrency through wallet address hijacking. **2+ billion weekly downloads** were affected across the JavaScript ecosystem.
 
-The attack involved malicious code injection into commonly used packages, allowing attackers to:
-- Hijack cryptocurrency transactions by replacing wallet addresses
-- Intercept network requests and modify responses
-- Manipulate clipboard content for address replacement
-- Use visual similarity attacks with Levenshtein distance algorithms
+### Attack Overview
+- **Date Discovered**: September 8, 2025
+- **Attack Vector**: Compromised NPM maintainer account (qix) via phishing
+- **Impact**: 18 popular packages with over 2 billion weekly downloads
+- **Objective**: Financial gain through cryptocurrency theft
+- **Method**: Malicious code injection in package updates
+
+### Malicious Capabilities
+- Crypto wallet address swapping using Levenshtein distance
+- Transaction hijacking via wallet provider interception
+- Network request modification (fetch, XMLHttpRequest)
+- Clipboard manipulation for address replacement
+- Multi-currency support (BTC, ETH, SOL, TRX, LTC, BCH)
+- Ethereum provider hijacking (window.ethereum)
+- Sophisticated code obfuscation to avoid detection
 
 ---
 
@@ -30,35 +40,26 @@ The attack involved malicious code injection into commonly used packages, allowi
 - [📦 Installation](#-installation)
 - [🚀 Usage](#-usage)
 - [🔍 How It Works](#-how-it-works)
-  - [Scanning Process](#scanning-process)
-  - [Detection Methodology](#detection-methodology)
-  - [Remediation Options](#remediation-options)
 - [📊 Vulnerability Database](#-vulnerability-database)
-  - [Complete List of Affected Packages](#complete-list-of-affected-packages)
-  - [Attack Technical Details](#attack-technical-details)
 - [🛡️ Security Recommendations](#-security-recommendations)
-  - [Immediate Actions](#immediate-actions)
-  - [Preventive Measures](#preventive-measures)
-  - [Response Strategy](#response-strategy)
-- [📋 Detailed Reporting](#-detailed-reporting)
-  - [HTML Report Features](#html-report-features)
-  - [Automated Scripts](#automated-scripts)
-  - [Interactive Tool](#interactive-tool)
+- [⚠️ User Responsibility](#-user-responsibility)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [🙏 Acknowledgments](#-acknowledgments)
 - [📞 Contact](#-contact)
-- [📊 Project Statistics](#-project-statistics)
 
 ---
 
 ## ✨ Features
 
+### Core Functionality
 - 🔍 **Comprehensive Scanning**: Automatically detects compromised packages across your entire system with deep directory traversal
 - 🎯 **Precision Targeting**: Identifies specific malicious versions with CVE tracking and risk scoring
 - 🛠️ **Multiple Response Options**: Three remediation paths - Delete, Repair, or Ignore vulnerable projects
 - 📊 **Professional Reporting**: Generates detailed HTML reports with comprehensive threat analysis and visualizations
 - 🖥️ **Interactive Tools**: Step-by-step guidance through the vulnerability remediation process
+
+### Advanced Features
 - 🔄 **Automated Scripts**: Batch processing capabilities for enterprise environments
 - 🎨 **Professional UI**: Dark theme with cyan/blue/black/gray color scheme for reduced eye strain
 - 🔐 **Security Best Practices**: Built-in recommendations and mitigation strategies based on threat intelligence
@@ -71,9 +72,10 @@ The attack involved malicious code injection into commonly used packages, allowi
 
 ## 📦 Installation
 
-**Requirements:**
+### Prerequisites
 - Node.js >= 14.0.0
 - npm >= 6.0.0
+- Administrative privileges (for system-wide scanning)
 
 ### Install from GitHub (Recommended)
 

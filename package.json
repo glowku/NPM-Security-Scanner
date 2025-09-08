@@ -1,0 +1,37 @@
+{
+  "name": "npm-security-scanner-pro",
+  "version": "1.0.0",
+  "description": "Professional tool to detect and respond to Operation CryptoClipper supply chain attack",
+  "main": "index.js",
+  "bin": {
+    "npm-security-scanner-pro": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "security",
+    "npm",
+    "scanner",
+    "vulnerability",
+    "cve",
+    "cryptoclipper",
+    "malware",
+    "supply-chain"
+  ],
+  "author": "glowku",
+  "license": "MIT",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glowku/NPM-Security-Scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/glowku/NPM-Security-Scanner/issues"
+  },
+  "homepage": "https://github.com/glowku/NPM-Security-Scanner#readme"
+}
