@@ -31,7 +31,8 @@ This tool responds to **Operation CryptoClipper** (CVE-2025-31842), a sophistica
 - Ethereum provider hijacking (window.ethereum)
 - Sophisticated code obfuscation to avoid detection
 
---
+---
+
 
 
 ✨ Features
