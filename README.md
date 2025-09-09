@@ -1,4 +1,4 @@
-# 🛡️ NPM Security Scanner - Professional Edition
+# 🛡️ NPM Security Scanner - CHECK+FIX Edition
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg)](https://nodejs.org/)
@@ -79,3 +79,4 @@ This tool responds to **Operation CryptoClipper** (CVE-2025-31842), a sophistica
 ### Method 1: Install from GitHub (Recommended)
 ```bash
 npm install -g glowku/NPM-Security-Scanner
+
