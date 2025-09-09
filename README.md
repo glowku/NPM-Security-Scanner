@@ -8,7 +8,10 @@
 [![GitHub stars](https://img.shields.io/github/stars/glowku/NPM-Security-Scanner.svg?style=social)](https://github.com/glowku/NPM-Security-Scanner/stargazers)
 
 **A comprehensive professional tool to detect and respond to the Operation CryptoClipper supply chain attack targeting JavaScript packages.**
+https://intel.arkm.com/explorer/entity/bb347405-06a1-4268-a901-4b4e17d93bfa
 
+https://intel.arkm.com/explorer/entity/bb347405-06a1-4268-a901-4b4e17d93bfa
+$497.03 for attack 
 ---
 
 ## 🚨 Critical Security Alert
@@ -79,4 +82,5 @@ This tool responds to **Operation CryptoClipper** (CVE-2025-31842), a sophistica
 ### Method 1: Install from GitHub (Recommended)
 ```bash
 npm install -g glowku/NPM-Security-Scanner
+
 
